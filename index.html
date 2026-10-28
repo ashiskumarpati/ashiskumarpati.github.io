@@ -148,8 +148,13 @@ footer a{color:var(--mint)}
 <main>
 <section id="home" class="hero"><div class="hero-bg"></div><div class="grid-lines"></div>
   <div class="hero-content">
-    <div class="profile-photo"><img src="./Ashis (3).jpeg" alt="Portrait of Dr. Ashis Kumar Pati" onerror="this.parentElement.style.display='none'"></div>
-    <div class="eyebrow">MATHEMATICS × ARTIFICIAL INTELLIGENCE × QUANTUM</div>
+<div class="profile-photo">
+  <img
+    src="./Ashis%20(3).jpeg"
+    alt="Portrait of Dr. Ashis Kumar Pati"
+    onerror="console.error('Profile image failed to load:', this.src)"
+  >
+</div>    <div class="eyebrow">MATHEMATICS × ARTIFICIAL INTELLIGENCE × QUANTUM</div>
     <h1>Dr. Ashis <span>Kumar Pati</span></h1>
     <p class="role">Assistant Professor · Centre for Data Science · ITER, SOA Deemed to be University</p>
     <p class="lead">Exploring mathematically grounded AI, computer vision and quantum machine learning to solve problems across mathematics, science and the real world.</p>
